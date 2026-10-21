@@ -1,5 +1,16 @@
 # Handoff
 
+## Canonical repository name (2026-10-21)
+
+PLUGIN-RENAME-001 renames GitHub/local source to opensagetv-vibe-tmdb-Plugin.
+PACKAGE_ID, future GitHub manifest links and CI artifact labels follow the
+name. Installed opensagetv-vibe-tmdb ID, configuration/cache paths, public API,
+manifest filename and existing v0.2.1 release remain unchanged. Focused manifest
+generation verifies canonical URL plus legacy identity; no runtime change or
+new release is inferred. Shared build/checkout/handoff paths follow the rename.
+Local Java8/JDK11 build, Java/cache tests and actual stock-JAR binary-link
+probe also pass; only a future generated manifest's source URL changes.
+
 ## Current state
 
 2026-10-09 publication reconciliation: v0.2.1 is already public and its current

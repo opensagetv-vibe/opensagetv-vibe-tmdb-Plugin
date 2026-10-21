@@ -1,5 +1,11 @@
 # OpenSageTV Vibe TMDB
 
+Repository: https://github.com/opensagetv-vibe/opensagetv-vibe-tmdb-Plugin
+
+Only the source repository was renamed. The installed `opensagetv-vibe-tmdb`
+plugin ID, configuration/cache paths, manifest filename and Java API remain
+unchanged; existing releases remain available.
+
 Reusable TMDB metadata service for OpenSageTV Vibe. It is intentionally
 separate from SageMC and the XMLTV importer so one implementation owns API
 credentials, request pacing, retry behavior, manual mappings, and a persistent

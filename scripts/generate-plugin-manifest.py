@@ -46,7 +46,7 @@ def main():
         raise SystemExit(f"plugin package lacks required root paths: {missing}")
 
     location = (
-        "https://github.com/opensagetv-vibe/opensagetv-vibe-tmdb/"
+        "https://github.com/opensagetv-vibe/opensagetv-vibe-tmdb-Plugin/"
         f"releases/download/v{args.version}/{package.name}"
     )
     root = ET.Element("SageTVPlugin")
@@ -59,7 +59,7 @@ def main():
         ("ModificationDate", "2026.09.09"),
         ("Version", args.version),
         ("ResourcePath", "OpenSageTVVibeTMDB"),
-        ("Webpage", "https://github.com/opensagetv-vibe/opensagetv-vibe-tmdb"),
+        ("Webpage", "https://github.com/opensagetv-vibe/opensagetv-vibe-tmdb-Plugin"),
         ("PluginType", "Standard"),
         ("ImplementationClass", "org.opensagetv.vibe.tmdb.plugin.OpenSageTVVibeTmdbPlugin"),
     )

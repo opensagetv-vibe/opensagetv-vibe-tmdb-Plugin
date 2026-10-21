@@ -41,7 +41,7 @@ jobs:
           PY
       - uses: actions/upload-artifact@v7
         with:
-          name: opensagetv-vibe-tmdb-${{ github.sha }}
+          name: opensagetv-vibe-tmdb-Plugin-${{ github.sha }}
           path: output/packages/
           if-no-files-found: error
           retention-days: 14

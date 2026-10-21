@@ -9,7 +9,16 @@ This is the only active TMDB backlog. Completed work moves to the checklist
 change ledger; release evidence is also recorded in `CHANGELOG.md` and
 `HANDOFF.md`.
 
+
 ## Checklist change ledger
+
+- [x] **PLUGIN-RENAME-001 (2026-10-21):** GitHub/local source renamed to
+  tmdb-Plugin; PACKAGE_ID, CI label and future GitHub manifest URLs updated.
+  Focused generated manifest verifies canonical URL, stable installed ID and
+  configuration path. Existing0.2.1 version/assets/cache/API remain unchanged.
+  Shared checkout/build/handoff dispatch follows the source rename; exact-HEAD
+  remote CI remains mandatory before completing workspace publication.
+
 
 - [x] Approved v0.2.1 publication acceptance reconciled2026-10-09. Release was
   already public2026-09-29 and its catalog proposal is merged. Independently

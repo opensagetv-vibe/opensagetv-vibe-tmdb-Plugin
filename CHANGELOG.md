@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-10-21: rename source repository to opensagetv-vibe-tmdb-Plugin; update
+  future release URLs and source/CI metadata without changing installed plugin
+  identity, cache/configuration paths, Java API or immutable v0.2.1 assets.
+
 - 2026-10-09: reconciled the already-published0.2.1 release and merged catalog
   entry through independent public download/GitHub SHA256/catalog MD5 checks.
   No newer runtime exists; publication task closes without a new binary.
